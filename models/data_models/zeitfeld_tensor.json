@@ -1,0 +1,97 @@
+{
+  "description": "Datenmodell des integrierten Zeitfeld-Tensors. Enthält die fünf Schichten des Zeitfeldes sowie deren Parameter, Kopplungen und Interferenzstrukturen.",
+  "version": "1.0",
+  "tensor_structure": {
+    "dimensions": [4, 4],
+    "indices": ["mu", "nu"],
+    "components": [
+      "T_00", "T_01", "T_02", "T_03",
+      "T_10", "T_11", "T_12", "T_13",
+      "T_20", "T_21", "T_22", "T_23",
+      "T_30", "T_31", "T_32", "T_33"
+    ]
+  },
+  "layers": {
+    "quantum": {
+      "id": "q",
+      "description": "Fundamentale Schicht: Entanglement-basierte Zeitrichtung.",
+      "parameters": {
+        "expectation_H": null,
+        "correlation_matrix": null,
+        "entanglement_entropy": null
+      }
+    },
+    "relativistic": {
+      "id": "r",
+      "description": "Lokale Metrik g_{μν} und gravitative Zeitdilatation.",
+      "parameters": {
+        "g_00": null,
+        "g_0i": [null, null, null],
+        "g_ij": [
+          [null, null, null],
+          [null, null, null],
+          [null, null, null]
+        ]
+      }
+    },
+    "galactic": {
+      "id": "g",
+      "description": "Großskalige Zeitgradienten durch DM-Halo, Spiralstruktur, vertikale und radiale Oszillationen.",
+      "parameters": {
+        "phi_nfw": null,
+        "phi_spiral": null,
+        "phi_vertical": null,
+        "phi_radial": null,
+        "cosmic_ray_flux": null
+      }
+    },
+    "solar": {
+      "id": "s",
+      "description": "Solare Aktivität: 11-, 22-, 90-Jahres-Zyklen und magnetische Modulation.",
+      "parameters": {
+        "A_solar": null,
+        "B_solar": [null, null, null],
+        "cycle_11": null,
+        "cycle_22": null,
+        "cycle_gleissberg": null
+      }
+    },
+    "planetary": {
+      "id": "p",
+      "description": "Planetare Frequenzen, synodische Zyklen und Resonanzen.",
+      "parameters": {
+        "frequencies": [],
+        "amplitudes": [],
+        "phases": [],
+        "synodic_frequencies": [],
+        "fourier_spectrum": null
+      }
+    }
+  },
+  "couplings": {
+    "quantum_relativistic": {
+      "lambda_qr": null,
+      "description": "Kopplung zwischen Entanglement-Struktur und lokaler Metrik."
+    },
+    "relativistic_galactic": {
+      "lambda_rg": null,
+      "description": "Kopplung zwischen lokaler Metrik und galaktischen Potentialen."
+    },
+    "solar_planetary": {
+      "lambda_sp": null,
+      "description": "Modulation der solaren Aktivität durch planetare Resonanzen."
+    },
+    "galactic_solar": {
+      "lambda_gs": null,
+      "description": "Einfluss galaktischer Gradienten auf solare Magnetfeldzyklen."
+    },
+    "planetary_galactic": {
+      "lambda_pg": null,
+      "description": "Modulation planetarer Frequenzen durch galaktische Potentiale."
+    }
+  },
+  "interference_terms": {
+    "formula": "T_total = Σ_i T^(i) + Σ_{i≠j} K(T^(i), T^(j))",
+    "terms": []
+  }
+}
