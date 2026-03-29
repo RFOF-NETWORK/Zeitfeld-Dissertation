@@ -1,0 +1,86 @@
+% models/mathematical/planetare_zyklen_fourier.tex
+% Fourier-Analyse planetarer Zyklen im Zeitfeldmodell
+
+\section{Fourier-Analyse planetarer Zyklen}
+
+\subsection{Grundidee}
+
+Planetare Zyklen lassen sich als Summe harmonischer Komponenten darstellen:
+\[
+Z(t) = \sum_{k=1}^{N} A_k \cos(\omega_k t + \phi_k).
+\]
+
+Diese Darstellung bildet die Grundlage für die planetare Schicht des Zeitfeldes.
+
+\subsection{Synodische Perioden}
+
+Die synodische Frequenz zweier Planeten $i$ und $j$ ergibt sich aus:
+\[
+\omega_{ij} = |\omega_i - \omega_j|.
+\]
+
+Die zugehörige Fourier-Komponente:
+\[
+Z_{ij}(t) = A_{ij} \cos(\omega_{ij} t + \phi_{ij}).
+\]
+
+\subsection{Milanković-Komponenten}
+
+Die drei Hauptzyklen:
+
+\begin{align*}
+\text{Exzentrizität:} &\quad \omega_E \approx \frac{2\pi}{100\,000 \text{ a}}, \\
+\text{Obliquität:} &\quad \omega_O \approx \frac{2\pi}{41\,000 \text{ a}}, \\
+\text{Präzession:} &\quad \omega_P \approx \frac{2\pi}{23\,000 \text{ a}}.
+\end{align*}
+
+Die Fourier-Darstellung:
+\[
+Z_{\text{Mil}}(t) = A_E \cos(\omega_E t) +
+A_O \cos(\omega_O t) +
+A_P \cos(\omega_P t).
+\]
+
+\subsection{Interferenz planetarer Frequenzen}
+
+Die Interferenz zweier planetarer Zyklen:
+\[
+Z_{\text{int}}(t) = Z_i(t) + Z_j(t)
+= A_i \cos(\omega_i t) + A_j \cos(\omega_j t).
+\]
+
+Dies ergibt Schwebungen:
+\[
+Z_{\text{beat}}(t) = 2 A \cos\left(\frac{\omega_i - \omega_j}{2} t\right)
+\cos\left(\frac{\omega_i + \omega_j}{2} t\right).
+\]
+
+\subsection{Planetare Kopplung im Zeitfeld}
+
+Die planetare Schicht des Zeitfeldtensors:
+\[
+\mathcal{T}^{(p)}_{ij}(t) = \sum_k A_k \cos(\omega_k t + \phi_k).
+\]
+
+\subsection{Fourier-Spektrum}
+
+Das Spektrum ergibt sich aus:
+\[
+\tilde{Z}(\omega) = \int_{-\infty}^{\infty} Z(t) e^{-i\omega t} dt.
+\]
+
+Die Peaks entsprechen den planetaren Frequenzen.
+
+\subsection{Kopplung an solare und galaktische Felder}
+
+Die Kopplung erfolgt über:
+\[
+\mathcal{K}\big(\mathcal{T}^{(p)}, \mathcal{T}^{(s)}\big)
+= \lambda_{ps} \sum_{k,l} A_k B_l \cos(\omega_k t + \phi_k)
+\cos(\Omega_l t + \psi_l).
+\]
+
+\subsection{Ergebnis}
+
+Die Fourier-Analyse bildet die mathematische Grundlage der planetaren
+Zeitfeldkomponenten und ihrer Interferenzstrukturen.
