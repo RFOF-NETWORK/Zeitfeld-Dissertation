@@ -1,0 +1,53 @@
+# Diagramm: Tensorstruktur des integrierten Zeitfeldes
+
+Dieses Diagramm zeigt die abstrakte Struktur des Zeitfeld-Tensors,
+wie er im integrierten Zeitfeldmodell verwendet wird. Es handelt sich
+um eine konzeptionelle Skizze, die die Beziehungen zwischen den
+Tensor-Komponenten und den fünf Zeitschichten darstellt.
+
+───────────────────────────────────────────────────────────────────────────────
+                         ZEITFELD-TENSOR 𝕋_{μν}(x)
+───────────────────────────────────────────────────────────────────────────────
+
+Definition:
+𝕋_{μν}(x) = 𝕋^{(planetar)}_{μν}
+           + 𝕋^{(solar)}_{μν}
+           + 𝕋^{(galaktisch)}_{μν}
+           + 𝕋^{(relativistisch)}_{μν}
+           + 𝕋^{(quanten)}_{μν}
+
+Jede Schicht besitzt eigene Tensoranteile, die sich überlagern.
+
+───────────────────────────────────────────────────────────────────────────────
+TENSORSTRUKTUR (ABSTRAKT)
+───────────────────────────────────────────────────────────────────────────────
+
+𝕋_{μν}(x) =
+┌───────────────────────────────────────────────────────────────────────────┐
+│  [ 𝕋_{00}   𝕋_{01}   𝕋_{02}   𝕋_{03} ]   Zeit- und Energiekomponenten       │
+│  [ 𝕋_{10}   𝕋_{11}   𝕋_{12}   𝕋_{13} ]   Raum-Zeit-Kopplungen              │
+│  [ 𝕋_{20}   𝕋_{21}   𝕋_{22}   𝕋_{23} ]   Gradienten & Flüsse               │
+│  [ 𝕋_{30}   𝕋_{31}   𝕋_{32}   𝕋_{33} ]   räumliche Strukturkomponenten     │
+└───────────────────────────────────────────────────────────────────────────┘
+
+───────────────────────────────────────────────────────────────────────────────
+SCHICHTEN-ZUORDNUNG
+───────────────────────────────────────────────────────────────────────────────
+
+1. QUANTENZEIT → beeinflusst fundamentale Struktur von 𝕋_{00}, 𝕋_{0i}
+2. RELATIVISTISCHE ZEIT → definiert lokale Metrik g_{μν} → Basis von 𝕋_{μν}
+3. GALAKTISCHE FELDER → modulieren großskalige Gradienten 𝕋_{ij}
+4. SOLARE FELDER → modulieren mittlere Skalen, v. a. 𝕋_{0i}, 𝕋_{ij}
+5. PLANETARE FELDER → erzeugen lokale Modulationen in 𝕋_{00}, 𝕋_{ij}
+
+───────────────────────────────────────────────────────────────────────────────
+INTERFERENZSTRUKTUR
+───────────────────────────────────────────────────────────────────────────────
+
+𝕋_{μν}(x) = Σ_i 𝕋^{(i)}_{μν}(x) + Σ_{i≠j} I_{μν}^{(i,j)}(x)
+
+wobei I_{μν}^{(i,j)} die Interferenzterme zwischen den Schichten darstellen.
+
+───────────────────────────────────────────────────────────────────────────────
+ERGEBNIS:
+Der Tensor 𝕋_{μν}(x) bildet die mathematische Grundlage des Zeitfeldes.
