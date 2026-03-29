@@ -1,0 +1,115 @@
+% models/mathematical/zeitfeld_formalismus.tex
+% Formaler Grundaufbau des integrierten Zeitfeldes
+
+\section{Formaler Zeitfeld-Formalismus}
+
+\subsection{Definition des Zeitfeld-Tensors}
+
+Das integrierte Zeitfeld wird durch einen Tensor zweiter Stufe definiert:
+\[
+\mathcal{T}_{\mu\nu}(x) = 
+\mathcal{T}^{(p)}_{\mu\nu}(x) +
+\mathcal{T}^{(s)}_{\mu\nu}(x) +
+\mathcal{T}^{(g)}_{\mu\nu}(x) +
+\mathcal{T}^{(r)}_{\mu\nu}(x) +
+\mathcal{T}^{(q)}_{\mu\nu}(x)
+\]
+mit den Indizes:
+\[
+p = \text{planetar}, \quad
+s = \text{solar}, \quad
+g = \text{galaktisch}, \quad
+r = \text{relativistisch}, \quad
+q = \text{quantenphysikalisch}.
+\]
+
+Jede Schicht besitzt eine eigene Metrikstruktur und eigene Dynamik.
+
+\subsection{Zeitgradienten}
+
+Die lokalen Zeitgradienten ergeben sich aus:
+\[
+\nabla_\alpha T = \partial_\alpha T(x)
+\]
+wobei $T(x)$ die effektive Zeitrate am Ort $x$ beschreibt.
+
+\subsection{Interferenzstruktur}
+
+Die Interferenz zweier Zeitfelder $T_a$ und $T_b$ ergibt:
+\[
+T_{\text{int}} = T_a + T_b + 2\sqrt{T_a T_b}\cos(\Delta\phi)
+\]
+mit der Phasendifferenz $\Delta\phi$.
+
+\subsection{Gesamtzeitrate}
+
+Die beobachtete Zeitrate ergibt sich aus:
+\[
+\frac{d\tau}{dt} = f\big(
+T^{(p)}, T^{(s)}, T^{(g)}, T^{(r)}, T^{(q)}
+\big)
+\]
+wobei $f$ eine nichtlineare, schichtübergreifende Kopplungsfunktion ist.
+
+\subsection{Kopplungsoperator}
+
+Die Kopplungen zwischen den Schichten werden durch einen Operator $\mathcal{K}$ beschrieben:
+\[
+\mathcal{K}\big(\mathcal{T}^{(i)}, \mathcal{T}^{(j)}\big)
+= \lambda_{ij} \, \mathcal{T}^{(i)}_{\mu\nu} \mathcal{T}^{(j)\,\mu\nu}
+\]
+mit Kopplungsparametern $\lambda_{ij}$.
+
+\subsection{Fundamentale Schicht}
+
+Die quantenphysikalische Schicht definiert die fundamentale Zeitrichtung:
+\[
+\mathcal{T}^{(q)}_{00} = \langle \Psi | \hat{H} | \Psi \rangle
+\]
+und koppelt über Entanglement-Korrelationen an die höheren Schichten.
+
+\subsection{Relativistische Schicht}
+
+Die relativistische Zeitrate ergibt sich aus:
+\[
+d\tau = \sqrt{g_{00}} \, dt
+\]
+wobei $g_{00}$ durch lokale Energie- und Massenverteilung bestimmt wird.
+
+\subsection{Galaktische Schicht}
+
+Die galaktische Komponente ergibt sich aus:
+\[
+\mathcal{T}^{(g)}_{00} = \Phi_{\text{DM}}(x) + \Phi_{\text{gal}}(x)
+\]
+mit Dunkle-Materie-Potential $\Phi_{\text{DM}}$ und galaktischem Potential $\Phi_{\text{gal}}$.
+
+\subsection{Solare Schicht}
+
+Die solare Modulation wird modelliert durch:
+\[
+\mathcal{T}^{(s)}_{0i} = A_{\odot}(t) \, B_{\odot,i}(t)
+\]
+mit solarem Aktivitätsindex $A_{\odot}$ und Magnetfeldkomponenten $B_{\odot,i}$.
+
+\subsection{Planetare Schicht}
+
+Die planetare Schicht basiert auf:
+\[
+\mathcal{T}^{(p)}_{ij} = \sum_k R_k \cos(\omega_k t + \phi_k)
+\]
+mit planetaren Frequenzen $\omega_k$ und Phasen $\phi_k$.
+
+\subsection{Gesamtmodell}
+
+Das vollständige Zeitfeld ergibt sich aus:
+\[
+\boxed{
+\mathcal{T}_{\mu\nu}(x) =
+\sum_{i} \mathcal{T}^{(i)}_{\mu\nu}(x)
++
+\sum_{i \neq j} \mathcal{K}\big(\mathcal{T}^{(i)}, \mathcal{T}^{(j)}\big)
+}
+\]
+
+Dies bildet die mathematische Grundlage des integrierten Zeitfeldmodells.
