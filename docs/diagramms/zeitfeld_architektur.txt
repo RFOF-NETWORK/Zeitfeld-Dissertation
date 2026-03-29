@@ -1,0 +1,87 @@
+# Diagramm: Architektur des integrierten Zeitfeldes
+
+Dieses Diagramm zeigt die funktionale Struktur des integrierten Zeitfeldmodells.
+Es stellt dar, wie die fünf Zeitschichten miteinander interagieren, welche
+Richtungen der Kopplung existieren und wie die beobachtete Zeit aus der
+Interferenz aller Ebenen entsteht.
+
+Die Architektur ist modular, schichtbasiert und vollständig reversibel.
+
+───────────────────────────────────────────────────────────────────────────────
+                           INTEGRIERTES ZEITFELD
+───────────────────────────────────────────────────────────────────────────────
+                                   │
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                     SCHICHT 1 – QUANTENZEIT (FUNDAMENTAL)
+───────────────────────────────────────────────────────────────────────────────
+• Emergenz der Zeit
+• Entanglement / Nichtlokalität
+• Dekohärenzprozesse
+• Majorana-Symmetrien
+• Zeitumkehrsymmetrie T
+                                   │
+                     (liefert fundamentale Zeitrichtung)
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                 SCHICHT 2 – RELATIVISTISCHE ZEIT (LOKALE METRIK)
+───────────────────────────────────────────────────────────────────────────────
+• Zeitdilatation durch Geschwindigkeit
+• Zeitdilatation durch Gravitation
+• Raumzeitkrümmung (g_00)
+• lokale Zeitgradienten
+                                   │
+                     (moduliert durch Energie- und Massenverteilung)
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                 SCHICHT 3 – GALAKTISCHE ZEITFELDER (GROSSSKALIG)
+───────────────────────────────────────────────────────────────────────────────
+• Spiralarmdurchgänge
+• Supernova-Rate
+• kosmische Strahlung
+• Halo-Dichtegradienten (dunkle Materie)
+• vertikale/radiale Oszillation des Sonnensystems
+                                   │
+                     (moduliert solare und planetare Felder)
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                     SCHICHT 4 – SOLARE ZEITFELDER (MITTLERE SKALA)
+───────────────────────────────────────────────────────────────────────────────
+• 11-Jahres-Zyklus
+• 22-Jahres-Hale-Zyklus
+• Gleissberg-, Suess-de Vries-, Hallstatt-Zyklen
+• Magnetfeldmodulation
+• Strahlungsmodulation
+                                   │
+                     (moduliert planetare Felder und geophysikalische Archive)
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                     SCHICHT 5 – PLANETARE ZEITFELDER (LOKAL)
+───────────────────────────────────────────────────────────────────────────────
+• Erdrotation
+• Erdumlauf
+• synodische Perioden
+• planetare Resonanzen
+• Milanković-Zyklen
+                                   │
+                     (direkt beobachtbare Zeitstrukturen)
+                                   ▼
+───────────────────────────────────────────────────────────────────────────────
+                         BEOBACHTETE ZEIT = INTERFERENZ
+───────────────────────────────────────────────────────────────────────────────
+= Überlagerung aller fünf Schichten  
+= nichtlinear, dynamisch, feldabhängig  
+= abhängig von Phase, Amplitude und Kopplung der Ebenen  
+
+───────────────────────────────────────────────────────────────────────────────
+KOPPLUNGEN (ÜBERSICHT)
+───────────────────────────────────────────────────────────────────────────────
+• Quantenzeit  → definiert fundamentale Richtung  
+• Relativistische Zeit  ↔ koppelt an alle astronomischen Felder  
+• Galaktische Felder  → modulieren solare Aktivität  
+• Solare Felder  → modulieren planetare Archive  
+• Planetare Felder  → bilden die sichtbare Zeitbasis  
+
+───────────────────────────────────────────────────────────────────────────────
+ENDERGEBNIS:
+Die beobachtete Zeit ist ein mehrschichtiges, interferierendes Feldsystem.
