@@ -1,0 +1,5 @@
+<!-- site/assets/icons/hypothesis.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M12 3a6 6 0 0 0-6 6c0 2.2 1.2 3.6 2.4 4.6.7.6 1.1 1.5 1.1 2.4V18h3v-2c0-.9.4-1.8 1.1-2.4C16.8 12.6 18 11.2 18 9a6 6 0 0 0-6-6z" fill="none" stroke="#f5b841" stroke-width="1.5"/>
+  <circle cx="12" cy="20.5" r="1" fill="#f5b841"/>
+</svg>
