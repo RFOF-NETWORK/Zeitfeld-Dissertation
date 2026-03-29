@@ -1,4 +1,3 @@
-// site/navigation/navigation.json
 {
   "items": [
     {
@@ -13,7 +12,7 @@
     },
     {
       "label": "Kapitel 2 – Historischer Hintergrund",
-      "path": "../docs/chapters/chapter02historischerhintergrund.md",
+      "path": "../docs/chapters/chapter02_historischer_hintergrund.md",
       "icon": "assets/icons/chapter.svg"
     },
     {
@@ -23,22 +22,22 @@
     },
     {
       "label": "Kapitel 4 – Astronomische Zyklen",
-      "path": "../docs/chapters/chapter04astronomischezyklen.md",
+      "path": "../docs/chapters/chapter04_astronomische_zyklen.md",
       "icon": "assets/icons/chapter.svg"
     },
     {
       "label": "Kapitel 5 – Relativistische Zeit",
-      "path": "../docs/chapters/chapter05relativistischezeit.md",
+      "path": "../docs/chapters/chapter05_relativistische_zeit.md",
       "icon": "assets/icons/chapter.svg"
     },
     {
       "label": "Kapitel 6 – Quantenzeit & Majorana",
-      "path": "../docs/chapters/chapter06quantenzeitmajorana.md",
+      "path": "../docs/chapters/chapter06_quantenzeit_majorana.md",
       "icon": "assets/icons/chapter.svg"
     },
     {
       "label": "Kapitel 7 – Galaktische Zeitfelder",
-      "path": "../docs/chapters/chapter07galaktischezeitfelder.md",
+      "path": "../docs/chapters/chapter07_galaktische_zeitfelder.md",
       "icon": "assets/icons/chapter.svg"
     },
     {
