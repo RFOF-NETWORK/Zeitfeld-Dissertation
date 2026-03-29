@@ -1,5 +1,115 @@
 # timefield-dissertation
-InterBOxSpiderWeb.NET PRVPNRFAI.py 2025 - 2029
+PZQQET InterBOxSpiderWeb.NET PRVPNRFAI.py q - Q
+
+
+
+Zeitfeld‑Dissertation – Forschungsrepository
+
+Dieses Repository enthält alle Daten, Analysen, Modelle, Skripte und Präsentationsmaterialien für die vollständige wissenschaftliche Ausarbeitung des Zeitfeld‑Modells.  
+Die Struktur ist modular, audit‑proof und vollständig nachvollziehbar aufgebaut.
+
+---
+
+📁 Projektstruktur
+
+`
+data/
+    raw/                → unverarbeitete Rohdaten
+    processed/          → bereinigte & modellierte Daten
+    metadata/           → Quellen, Dokumentation
+
+analysis/
+    *.ipynb             → wissenschaftliche Analysen & Modelle
+
+presentation/
+    slides/             → Verteidigungsfolien
+    posters/            → wissenschaftliche Poster
+    figures/            → alle Visualisierungen
+
+tools/
+    scripts/            → Verarbeitung, Tensorfelder, Fourier
+    utilities/          → Konstanten, Plotting, Astro‑Funktionen
+`
+
+---
+
+🔬 Wissenschaftlicher Fokus
+
+Das Projekt untersucht die Kopplung und Interferenz der fünf Schichten des Zeitfeld‑Modells:
+
+1. Quantenzeit
+2. Relativistische Zeit
+3. Galaktische Zeitgradienten
+4. Solare Zyklen
+5. Planetare Zyklen
+
+Zentrale Forschungsfragen:
+
+- Wie interagieren diese Schichten?
+- Welche Resonanzen entstehen?
+- Wie beeinflussen Gravitationsprofile die Zeitmodulation?
+- Welche Interferenzmuster sind messbar?
+
+---
+
+📊 Datenquellen
+
+- NASA Solar Data  
+- GAIA DR3  
+- Planetary Ephemerides  
+- GPS Time Dilation  
+- interne Modellparameter  
+
+Alle Quellen sind in data/metadata/datenquellen.md dokumentiert.
+
+---
+
+🧠 Analysen
+
+Die Notebooks in analysis/ decken ab:
+
+- Zeitfeld‑Interferenz  
+- relativistische Korrekturen  
+- Zyklusanalyse  
+- galaktische Zeitgradienten  
+
+Jedes Notebook ist vollständig dokumentiert.
+
+---
+
+🛠 Tools
+
+Scripts (tools/scripts/)
+- Fourier‑Analysen  
+- Tensorfeld‑Generierung  
+- Datenbereinigung  
+
+Utilities (tools/utilities/)
+- Plotting  
+- Konstanten  
+- astronomische Hilfsfunktionen  
+
+Alle Dateien besitzen vollständige Header‑Dokumentation.
+
+---
+
+🎨 Präsentation
+
+- Verteidigungsfolien  
+- wissenschaftliche Poster  
+- alle Figures (Tensorfelder, Spektren, Diagramme)
+
+---
+
+✔ Status
+
+Das Repository ist vollständig dokumentiert.  
+Alle Ordner, Dateien, Skripte und Analysen sind beschrieben und strukturell abgeschlossen.
+
+`
+
+
+
 
 ```
 zeitfeld-dissertation/
