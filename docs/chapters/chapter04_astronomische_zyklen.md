@@ -1,4 +1,4 @@
-<!-- docs/chapters/chapter04astronomischezyklen.md -->
+<!-- docs/chapters/chapter04_astronomische_zyklen.md -->
 
 # Kapitel 4 – Astronomische Zyklen und natürliche Zeitarchitekturen
 
