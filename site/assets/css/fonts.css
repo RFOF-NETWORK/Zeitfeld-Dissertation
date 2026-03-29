@@ -1,0 +1,9 @@
+/* site/assets/css/fonts.css */
+@font-face {
+  font-family: "SystemFallback";
+  src: local("system-ui");
+}
+
+body {
+  font-family: "SystemFallback", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
