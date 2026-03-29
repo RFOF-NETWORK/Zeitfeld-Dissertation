@@ -1,0 +1,70 @@
+{
+  "description": "Parameterkatalog für alle galaktischen Komponenten des integrierten Zeitfeldmodells. Enthält DM-Halo-Parameter, Spiralarmdaten, vertikale und radiale Oszillationen sowie kosmische Strahlungsmodulation.",
+  "version": "1.0",
+  "dark_matter_halo": {
+    "profile": "NFW",
+    "parameters": {
+      "rho0": null,
+      "scale_radius_rs_kpc": null,
+      "concentration_c": null,
+      "virial_mass_msun": null
+    },
+    "derived": {
+      "phi_nfw": null,
+      "density_profile": []
+    }
+  },
+  "spiral_structure": {
+    "model": "logarithmic_spiral",
+    "parameters": {
+      "number_of_arms_m": null,
+      "pitch_angle_deg": null,
+      "scale_height_hz_pc": null,
+      "reference_radius_r0_kpc": null,
+      "amplitude_Asp": null
+    },
+    "derived": {
+      "phi_spiral": null
+    }
+  },
+  "vertical_oscillation": {
+    "description": "Oszillation des Sonnensystems senkrecht zur galaktischen Ebene.",
+    "parameters": {
+      "amplitude_z0_pc": null,
+      "frequency_omega_z_myr": null,
+      "phase_phi_z": null
+    },
+    "derived": {
+      "z_of_t": [],
+      "phi_vertical": null
+    }
+  },
+  "radial_oscillation": {
+    "description": "Radiale Bewegung des Sonnensystems im galaktischen Potential.",
+    "parameters": {
+      "delta_R_pc": null,
+      "frequency_omega_R_myr": null,
+      "phase_phi_R": null
+    },
+    "derived": {
+      "R_of_t": [],
+      "phi_radial": null
+    }
+  },
+  "cosmic_rays": {
+    "description": "Modulation der kosmischen Strahlung durch galaktische Position und Supernova-Rate.",
+    "parameters": {
+      "baseline_flux_J0": null,
+      "modulation_amplitude": null,
+      "modulation_frequency": null,
+      "phase": null
+    },
+    "derived": {
+      "cosmic_ray_flux": null
+    }
+  },
+  "combined_galactic_potential": {
+    "formula": "Phi_gal = Phi_NFW + Phi_spiral + Phi_vertical + Phi_radial",
+    "value": null
+  }
+}
