@@ -1,0 +1,128 @@
+% models/mathematical/galaktische_potentiale.tex
+% Galaktische Potentiale und ihre Rolle im integrierten Zeitfeldmodell
+
+\section{Galaktische Potentiale im Zeitfeldmodell}
+
+\subsection{Grundidee}
+
+Die galaktische Schicht des Zeitfeldes beschreibt großskalige
+Zeitgradienten, die durch:
+
+\begin{itemize}
+\item Dunkle-Materie-Halos,
+\item Spiralarmstrukturen,
+\item vertikale und radiale Oszillationen des Sonnensystems,
+\item Supernova-Rate und kosmische Strahlung
+\end{itemize}
+
+erzeugt werden.
+
+Diese Strukturen beeinflussen die Zeitrate über gravitative und
+strahlungsinduzierte Modulationen.
+
+\subsection{Dunkle-Materie-Halo: NFW-Profil}
+
+Das Navarro–Frenk–White-Profil:
+\[
+\rho(r) = \frac{\rho_0}{\frac{r}{r_s}\left(1 + \frac{r}{r_s}\right)^2}.
+\]
+
+Das zugehörige Potential:
+\[
+\Phi_{\text{NFW}}(r) = -4\pi G \rho_0 r_s^2 \frac{\ln(1 + r/r_s)}{r/r_s}.
+\]
+
+Die Zeitfeldkomponente:
+\[
+\mathcal{T}^{(g)}_{00}(r) = \Phi_{\text{NFW}}(r).
+\]
+
+\subsection{Spiralarm-Potential}
+
+Ein vereinfachtes logarithmisches Spiralarm-Potential:
+\[
+\Phi_{\text{sp}}(R,\phi,z) =
+A_{\text{sp}} \cos\left(m\phi - \frac{\ln(R/R_0)}{\tan p}\right)
+e^{-|z|/h_z}.
+\]
+
+Parameter:
+\begin{itemize}
+\item $m$ = Anzahl der Spiralarme,
+\item $p$ = Pitch-Winkel,
+\item $h_z$ = vertikale Skalenhöhe.
+\end{itemize}
+
+\subsection{Vertikale Oszillation des Sonnensystems}
+
+Die Bewegung senkrecht zur galaktischen Ebene:
+\[
+z(t) = Z_0 \cos(\omega_z t + \phi_z).
+\]
+
+Das zugehörige Potential:
+\[
+\Phi_z(t) = \frac{1}{2} \nu^2 z(t)^2.
+\]
+
+\subsection{Radiale Oszillation}
+
+Die radiale Bewegung:
+\[
+R(t) = R_0 + \Delta R \cos(\omega_R t + \phi_R).
+\]
+
+Potential:
+\[
+\Phi_R(t) = \frac{1}{2} \kappa^2 (R(t) - R_0)^2.
+\]
+
+\subsection{Supernova-Rate und kosmische Strahlung}
+
+Die kosmische Strahlungsflussdichte:
+\[
+J_{\text{CR}}(t) = J_0 + \Delta J \cos(\omega_{\text{CR}} t + \phi_{\text{CR}}).
+\]
+
+Die Zeitfeldkopplung:
+\[
+\mathcal{T}^{(g)}_{0i} \propto J_{\text{CR}}(t).
+\]
+
+\subsection{Gesamtpotential der galaktischen Schicht}
+
+Das vollständige galaktische Potential:
+\[
+\Phi_{\text{gal}}(x) =
+\Phi_{\text{NFW}}(r)
++ \Phi_{\text{sp}}(R,\phi,z)
++ \Phi_z(t)
++ \Phi_R(t).
+\]
+
+\subsection{Beitrag zum Zeitfeldtensor}
+
+Die galaktische Schicht trägt bei:
+\[
+\mathcal{T}^{(g)}_{00}(x) = \Phi_{\text{gal}}(x),
+\]
+\[
+\mathcal{T}^{(g)}_{ij}(x) = \partial_i \partial_j \Phi_{\text{gal}}(x).
+\]
+
+\subsection{Interferenz mit solaren und planetaren Feldern}
+
+Die Kopplung erfolgt über:
+\[
+\mathcal{K}\big(\mathcal{T}^{(g)}, \mathcal{T}^{(s)}\big)
+= \lambda_{gs} \, \Phi_{\text{gal}} \, A_{\odot}(t),
+\]
+\[
+\mathcal{K}\big(\mathcal{T}^{(g)}, \mathcal{T}^{(p)}\big)
+= \lambda_{gp} \, \Phi_{\text{gal}} \sum_k A_k \cos(\omega_k t).
+\]
+
+\subsection{Ergebnis}
+
+Die galaktische Schicht definiert die großskaligen Zeitgradienten und
+moduliert die solaren und planetaren Zeitfeldkomponenten.
