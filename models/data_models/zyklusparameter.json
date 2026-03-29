@@ -1,0 +1,78 @@
+{
+  "description": "Parameterkatalog für alle zyklischen Komponenten des integrierten Zeitfeldmodells. Enthält planetare, solare, galaktische und kombinierte Frequenzen, Amplituden und Phasen.",
+  "version": "1.0",
+  "cycles": {
+    "planetary": {
+      "description": "Planetare Umlauf- und synodische Zyklen.",
+      "frequencies": {
+        "earth_year": {
+          "period_years": 1.0,
+          "omega": "2π / 1.0"
+        },
+        "jupiter_year": {
+          "period_years": 11.86,
+          "omega": "2π / 11.86"
+        },
+        "saturn_year": {
+          "period_years": 29.46,
+          "omega": "2π / 29.46"
+        },
+        "synodic_jupiter_saturn": {
+          "period_years": 19.86,
+          "omega": "|ω_jupiter - ω_saturn|"
+        }
+      },
+      "parameters": {
+        "amplitudes": [],
+        "phases": [],
+        "harmonics": []
+      }
+    },
+    "solar": {
+      "description": "Solare Aktivitätszyklen und magnetische Modulation.",
+      "frequencies": {
+        "schwabe_11": {
+          "period_years": 11,
+          "omega": "2π / 11"
+        },
+        "hale_22": {
+          "period_years": 22,
+          "omega": "2π / 22"
+        },
+        "gleissberg_90": {
+          "period_years": 90,
+          "omega": "2π / 90"
+        }
+      },
+      "parameters": {
+        "amplitudes": [],
+        "phases": [],
+        "modulation_depth": null
+      }
+    },
+    "galactic": {
+      "description": "Großskalige Zyklen durch vertikale und radiale Oszillation des Sonnensystems.",
+      "frequencies": {
+        "vertical_oscillation": {
+          "period_myr": 52,
+          "omega": "2π / 52 Myr"
+        },
+        "radial_oscillation": {
+          "period_myr": 180,
+          "omega": "2π / 180 Myr"
+        }
+      },
+      "parameters": {
+        "amplitudes": [],
+        "phases": [],
+        "potential_modulation": null
+      }
+    },
+    "combined": {
+      "description": "Interferenz- und Resonanzstrukturen zwischen planetaren, solaren und galaktischen Zyklen.",
+      "interference_terms": [],
+      "resonances": [],
+      "fourier_spectrum": null
+    }
+  }
+}
