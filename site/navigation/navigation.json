@@ -1,0 +1,80 @@
+// site/navigation/navigation.json
+{
+  "items": [
+    {
+      "label": "Abstract",
+      "path": "../docs/abstract/abstract_v1.md",
+      "icon": "assets/icons/home.svg"
+    },
+    {
+      "label": "Kapitel 1 – Einleitung",
+      "path": "../docs/chapters/chapter01_einleitung.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 2 – Historischer Hintergrund",
+      "path": "../docs/chapters/chapter02historischerhintergrund.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 3 – Relativität",
+      "path": "../docs/chapters/chapter03_relativitaet.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 4 – Astronomische Zyklen",
+      "path": "../docs/chapters/chapter04astronomischezyklen.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 5 – Relativistische Zeit",
+      "path": "../docs/chapters/chapter05relativistischezeit.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 6 – Quantenzeit & Majorana",
+      "path": "../docs/chapters/chapter06quantenzeitmajorana.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 7 – Galaktische Zeitfelder",
+      "path": "../docs/chapters/chapter07galaktischezeitfelder.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 8 – Zeitfeldmodell",
+      "path": "../docs/chapters/chapter08_zeitfeldmodell.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 9 – Empirie",
+      "path": "../docs/chapters/chapter09_empirie.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Kapitel 10 – Schlussfolgerung",
+      "path": "../docs/chapters/chapter10_schlussfolgerung.md",
+      "icon": "assets/icons/chapter.svg"
+    },
+    {
+      "label": "Hypothesen",
+      "path": "../docs/hypotheses/hypothesenliste_v1.md",
+      "icon": "assets/icons/hypothesis.svg"
+    },
+    {
+      "label": "Argumentationskette",
+      "path": "../docs/argumentation/argumentationskette_einleitung.md",
+      "icon": "assets/icons/argument.svg"
+    },
+    {
+      "label": "Diagramm – Zeitebenen",
+      "path": "../docs/diagrams/zeitebenen_hierarchie.txt",
+      "icon": "assets/icons/diagram.svg"
+    },
+    {
+      "label": "Diagramm – Zeitfeld-Architektur",
+      "path": "../docs/diagrams/zeitfeld_architektur.txt",
+      "icon": "assets/icons/diagram.svg"
+    }
+  ]
+}
