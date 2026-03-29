@@ -1,4 +1,4 @@
-<!-- docs/chapters/chapter05relativistischezeit.md -->
+<!-- docs/chapters/chapter05_relativistische_zeit.md -->
 
 # Kapitel 5 – Relativistische Zeit und ihre empirischen Manifestationen
 
