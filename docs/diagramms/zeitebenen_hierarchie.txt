@@ -1,0 +1,51 @@
+# Diagramm: Hierarchie der Zeitebenen
+
+Dieses Diagramm zeigt die fünf Schichten des integrierten Zeitfeldmodells
+in ihrer vertikalen, hierarchischen Anordnung — von der fundamentalen
+quantenphysikalischen Ebene bis zur beobachtbaren planetaren Ebene.
+
+Jede Ebene beeinflusst die darüberliegenden Schichten und wird gleichzeitig
+von ihnen moduliert. Die beobachtete Zeit ist die Interferenz aller Ebenen.
+
+---------------------------------------------------------
+|                   PLANETARE EBENE                     |
+|-------------------------------------------------------|
+| Rotation, Umlauf, synodische Perioden,                |
+| Milanković-Zyklen, planetare Resonanzen               |
+---------------------------------------------------------
+                         ▲
+                         │
+---------------------------------------------------------
+|                     SOLARE EBENE                      |
+|-------------------------------------------------------|
+| 11-Jahres-Zyklus, 22-Jahres-Hale-Zyklus,              |
+| Gleissberg-, Suess-de Vries-, Hallstatt-Zyklen,       |
+| solare Magnetfeldmodulation                           |
+---------------------------------------------------------
+                         ▲
+                         │
+---------------------------------------------------------
+|                   GALAKTISCHE EBENE                   |
+|-------------------------------------------------------|
+| Spiralarmdurchgänge, Supernova-Rate,                  |
+| kosmische Strahlung, Halo-Dichtegradienten,           |
+| vertikale/radiale Oszillation des Sonnensystems       |
+---------------------------------------------------------
+                         ▲
+                         │
+---------------------------------------------------------
+|                 RELATIVISTISCHE EBENE                 |
+|-------------------------------------------------------|
+| Zeitdilatation durch Geschwindigkeit und Gravitation, |
+| lokale Metrik g_00, Raumzeitkrümmung                  |
+---------------------------------------------------------
+                         ▲
+                         │
+---------------------------------------------------------
+|               QUANTENPHYSIKALISCHE EBENE              |
+|-------------------------------------------------------|
+| Emergenz der Zeit, Entanglement, Dekohärenz,          |
+| Majorana-Symmetrien, Zeitumkehrsymmetrie              |
+---------------------------------------------------------
+
+Beobachtete Zeit = Interferenz aller fünf Ebenen
