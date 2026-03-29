@@ -66,7 +66,39 @@ async function loadNavigation() {
   }
 }
 
+/* ---------------------------------------------------------
+   NEUE FUNKTIONALITÄT: Klickbare Schriftzüge oben
+   --------------------------------------------------------- */
+
+// Klick-Logik für die vier Schriftzüge aktivieren
+function activateTopicModes() {
+  document.querySelectorAll("#topic-bar .topic").forEach(el => {
+    el.addEventListener("click", () => {
+      const mode = el.dataset.mode;
+      showDemoFormula(mode);
+    });
+  });
+}
+
+// Demo-Formeln abhängig vom Modus anzeigen
+function showDemoFormula(mode) {
+  const demo = document.getElementById("demo-output");
+
+  const formulas = {
+    zeitfeld: "Δt = f(Σ Felder) = Δt_rel + Δt_quant + Δt_gal",
+    relativitaet: "Δt = Δt₀ · √(1 - v²/c²)",
+    quantenzeit: "ψ(t) = e^{-iHt/ħ} ψ(0)",
+    zyklen: "T_total = T_planet + T_solar + T_galaktisch"
+  };
+
+  demo.innerHTML = `
+    <h3>Demo-Formel</h3>
+    <pre>${formulas[mode] || "Keine Formel definiert."}</pre>
+  `;
+}
+
 // Initialisierung
 document.addEventListener("DOMContentLoaded", () => {
   loadNavigation();
+  activateTopicModes(); // ← NEU
 });
