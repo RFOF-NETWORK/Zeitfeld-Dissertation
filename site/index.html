@@ -1,0 +1,77 @@
+<!-- site/index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zeitfeld-Dissertation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Fonts (lokal konfigurierbar) -->
+  <link rel="stylesheet" href="assets/css/fonts.css" />
+
+  <!-- PyScript (optional, nur für Demo) -->
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+  <!-- Markdown Parser (CDN, keine Build-Tools) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- MathJax Konfiguration -->
+  <script src="libs/mathjax-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="logo-title">
+        <img src="assets/logo.svg" alt="Logo" class="logo" />
+        <div class="title-block">
+          <h1>Zeitfeld-Dissertation</h1>
+          <p>Mehrschichtiges Zeitfeldmodell · Relativität · Quantenzeit · kosmische Zyklen</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="app-body">
+      <nav class="sidebar">
+        <ul id="nav-list">
+          <!-- Navigation wird dynamisch aus navigation/navigation.json geladen -->
+        </ul>
+      </nav>
+
+      <main class="content">
+        <section id="content-section">
+          <article id="content">
+            <h2>Willkommen</h2>
+            <p>
+              Diese Website präsentiert die Struktur und Inhalte der Dissertation
+              zum Thema <strong>Zeitfeld</strong>, basierend auf einem integrierten Modell
+              aus Relativität, Quantenzeit, planetaren, solaren und galaktischen Zyklen.
+            </p>
+            <p>
+              Wähle links ein Kapitel, eine Hypothesenliste, die Argumentationskette
+              oder Diagramme, um die Inhalte als Markdown gerendert mit LaTeX-Formeln zu sehen.
+            </p>
+          </article>
+
+          <section class="pyscript-demo">
+            <h3>PyScript-Demo: Einfaches Zeitfeld-Beispiel</h3>
+            <p>
+              Dieses kleine Beispiel zeigt eine symbolische Kombination aus
+              relativistischer und gravitativer Zeitkomponente.
+            </p>
+            <py-script src="pyscript/demo.py"></py-script>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <footer class="app-footer">
+      <span>© Zeitfeld-Dissertation · Statische Forschungsseite</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
