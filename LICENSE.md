@@ -1,6 +1,6 @@
 # TIMEFEELD LICENSE  
 Version 1.0 — 2026  
-Author: Justin Koch Al‑Moh’d
+Author: J.K
 
 Diese Lizenz regelt die Nutzung aller Inhalte dieses Repositories, einschließlich:
 
